@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Vite App</title>
+
+  </head>
+  <body>
+    <header class="container">
+      <h1 class="title">VITE-ASINCRONIA- DOM</h1>
+      </header>
+      <main class="container">
+        <div class="contenido_main">
+      <div class="card">
+        <h2>Agregar usuarios</h2>
+      <form id="form" action="">
+        <div>
+          <label class="nameDato" for="nombre">Nombre:</label> 
+          <input id="nombre" class="dato" type="text" placeholder="Ingrese su nombre" required>
+        </div>
+        <div>
+          <label class="nameDato"  for="apellido" >Apellido:</label>
+          <input id="apellido" class="dato" type="text" placeholder="Ingrese su apellido" required>
+        </div>
+        <div class="pais">
+          <label class="nameDato"  for="pais">Pais:</label>
+          <input id="pais" class="dato" type="text" placeholder="Ingrese su pais" required>
+          
+        </div>
+<button class="btn" type="submit">Enviar</button>
+      </form>
+      </div>
+      <div class="tabla">
+      <table >
+        <caption>Tabla de usuarios</caption>
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Pais</th>
+          <th>Accion</th>
+        </tr>
+        </thead>
+        <tbody id="tablebody">
+        
+        </tbody>
+        </table>
+      </div>
+      </main>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+
+
+
+  </body>
+</html>

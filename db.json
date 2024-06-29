@@ -1,0 +1,16 @@
+{
+  "usuarios": [
+    {
+      "id": "d96f",
+      "nombre": "Rosa ",
+      "apellido": "flores",
+      "pais": "uruguay"
+    },
+    {
+      "id": "5c45",
+      "nombre": "juan ",
+      "apellido": "giner",
+      "pais": "argentina"
+    }
+  ]
+}

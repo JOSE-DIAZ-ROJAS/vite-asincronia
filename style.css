@@ -1,0 +1,82 @@
+
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+  margin: 0 auto;
+    font-size: 100%;
+    list-style-type: none;
+}
+
+
+.container{
+  border: 1px solid green;
+  margin: 0 auto;
+  width: 1280px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 5px 5px;
+
+}
+
+
+
+
+.card {
+  
+  display: block;
+  border: 1px solid;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 20px 20px;
+ margin-bottom: 10px;
+}
+
+.dato{
+width: 360px;
+display: block;
+}
+.nameDato{
+}
+.pais{
+  
+
+}
+.btn{
+margin-top: 5px;
+width: 360px;
+border: none;
+height: 20px;
+}
+.tabla{
+border: 1px solid;
+border-radius: 8px;
+width: 500px;
+ 
+}
+.contenido_main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 500px;
+ /* background-color: coral;*/
+}
+td{
+  width: 100px;
+ /* border: 1px solid;*/
+  text-align: center;
+}
+.btn1{
+
+  border: none;
+}
